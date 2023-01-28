@@ -10,12 +10,10 @@ export default function Hero() {
                     className="max-w-full rounded-lg shadow-2xl"
                 />
                 <div className="antialiased">
-                    <h1 className="text-5xl font-bold">
-                        Hi &apos;, I'm rhandyta&lsquo;
-                    </h1>
+                    <h1 className="text-5xl font-bold">Hi , I'm rhandyta</h1>
                     <p className="py-6">
-                        I am a developer who is passionate about learning&#39;
-                        and consistency is key&rsquo;
+                        I am a developer who is passionate about learning and
+                        consistency is key
                     </p>
                     <button className="btn btn-primary">Explorer me</button>
                 </div>
