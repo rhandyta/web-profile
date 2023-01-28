@@ -1,10 +1,11 @@
+import Image from "next/image";
 import React from "react";
 
 export default function Hero() {
     return (
         <div className="hero min-h-screen bg-base-200 px-10">
             <div className="hero-content flex-col lg:flex-row-reverse ">
-                <img
+                <Image
                     src="/assets/images/hero.jpg"
                     className="max-w-full rounded-lg shadow-2xl"
                 />

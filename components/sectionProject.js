@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 export default function SectionProject() {
@@ -11,7 +12,7 @@ export default function SectionProject() {
                     <div className="flex flex-wrap gap-5 justify-center">
                         <div className="card w-72 bg-base-100 shadow-xl">
                             <figure>
-                                <img
+                                <Image
                                     src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
                                     alt="Shoes"
                                 />
@@ -39,7 +40,7 @@ export default function SectionProject() {
                         </div>
                         <div className="card w-72 bg-base-100 shadow-xl">
                             <figure>
-                                <img
+                                <Image
                                     src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
                                     alt="Shoes"
                                 />
@@ -67,7 +68,7 @@ export default function SectionProject() {
                         </div>
                         <div className="card w-72 bg-base-100 shadow-xl">
                             <figure>
-                                <img
+                                <Image
                                     src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
                                     alt="Shoes"
                                 />
@@ -95,7 +96,7 @@ export default function SectionProject() {
                         </div>
                         <div className="card w-72 bg-base-100 shadow-xl">
                             <figure>
-                                <img
+                                <Image
                                     src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
                                     alt="Shoes"
                                 />
@@ -123,7 +124,7 @@ export default function SectionProject() {
                         </div>
                         <div className="card w-72 bg-base-100 shadow-xl">
                             <figure>
-                                <img
+                                <Image
                                     src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
                                     alt="Shoes"
                                 />
@@ -151,7 +152,7 @@ export default function SectionProject() {
                         </div>
                         <div className="card w-72 bg-base-100 shadow-xl">
                             <figure>
-                                <img
+                                <Image
                                     src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
                                     alt="Shoes"
                                 />
