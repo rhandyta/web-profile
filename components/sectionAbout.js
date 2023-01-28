@@ -1,10 +1,11 @@
+import Image from "next/image";
 import React from "react";
 
 export default function SectionAbout() {
     return (
         <div className="hero min-h-screen bg-base-200 px-10">
             <div className="hero-content flex-col lg:flex-row">
-                <img
+                <Image
                     src="/assets/images/skills.png"
                     className="max-w-full rounded-lg shadow-2xl bg-transparent"
                 />
