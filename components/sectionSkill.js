@@ -5,9 +5,9 @@ export default function SectionSkill() {
         <div className="hero min-h-screen bg-base-200 px-10">
             <div className="hero-content">
                 <div>
-                    <h1 className="text-5xl font-bold text-center mb-10">
+                    <h3 className="text-5xl font-bold text-center mb-10">
                         My Skill
-                    </h1>
+                    </h3>
                     <div className="flex flex-wrap justify-between gap-5">
                         <div className="w-32">
                             <svg

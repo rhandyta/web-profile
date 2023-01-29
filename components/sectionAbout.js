@@ -11,9 +11,10 @@ export default function SectionAbout() {
                     width="100"
                     height="100"
                     alt="skill"
+                    loading="lazy"
                 />
                 <div>
-                    <h1 className="text-5xl font-bold text-center">About me</h1>
+                    <h3 className="text-5xl font-bold text-center">About me</h3>
                     <p className="py-6 text-justify">
                         I am an energetic and ambitious person. I always strive
                         to learn something new and pursue my dreams. I am highly

@@ -8,14 +8,15 @@ export default function Hero() {
                 <Image
                     src="/assets/images/hero.jpg"
                     className="max-w-full rounded-lg shadow-2xl"
-                    alt="hero"
+                    alt="rhandyta"
                     width="400"
                     height="400"
+                    loading="lazy"
                 />
                 <div className="antialiased">
-                    <h1 className="text-5xl font-bold">
+                    <h2 className="text-5xl font-bold">
                         Hi 👋, I&apos;m rhandyta😁
-                    </h1>
+                    </h2>
                     <p className="py-6">
                         I am a developer who is passionate about learning🕮 and
                         consistency is key🗝️

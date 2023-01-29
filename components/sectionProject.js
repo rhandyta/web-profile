@@ -6,9 +6,9 @@ export default function SectionProject() {
         <div className="hero min-h-screen bg-base-200 px-10">
             <div className="hero-content text-center">
                 <div>
-                    <h1 className="text-5xl font-bold text-center mb-10">
+                    <h3 className="text-5xl font-bold text-center mb-10">
                         My Skill
-                    </h1>
+                    </h3>
                     <div className="flex flex-wrap gap-5 justify-center">
                         <div className="card w-72 bg-base-100 shadow-xl">
                             <figure>
@@ -17,15 +17,16 @@ export default function SectionProject() {
                                     alt="Shoes1"
                                     width="1080"
                                     height="500"
+                                    loading="lazy"
                                 />
                             </figure>
                             <div className="card-body">
-                                <h2 className="card-title">
+                                <h4 className="card-title">
                                     Shoes!
                                     <div className="badge badge-secondary">
                                         NEW
                                     </div>
-                                </h2>
+                                </h4>
                                 <p>
                                     If a dog chews shoes whose shoes does he
                                     choose?
@@ -50,12 +51,12 @@ export default function SectionProject() {
                                 />
                             </figure>
                             <div className="card-body">
-                                <h2 className="card-title">
+                                <h4 className="card-title">
                                     Shoes!
                                     <div className="badge badge-secondary">
                                         NEW
                                     </div>
-                                </h2>
+                                </h4>
                                 <p>
                                     If a dog chews shoes whose shoes does he
                                     choose?
@@ -80,12 +81,12 @@ export default function SectionProject() {
                                 />
                             </figure>
                             <div className="card-body">
-                                <h2 className="card-title">
+                                <h4 className="card-title">
                                     Shoes!
                                     <div className="badge badge-secondary">
                                         NEW
                                     </div>
-                                </h2>
+                                </h4>
                                 <p>
                                     If a dog chews shoes whose shoes does he
                                     choose?
@@ -110,12 +111,12 @@ export default function SectionProject() {
                                 />
                             </figure>
                             <div className="card-body">
-                                <h2 className="card-title">
+                                <h4 className="card-title">
                                     Shoes!
                                     <div className="badge badge-secondary">
                                         NEW
                                     </div>
-                                </h2>
+                                </h4>
                                 <p>
                                     If a dog chews shoes whose shoes does he
                                     choose?
@@ -140,12 +141,12 @@ export default function SectionProject() {
                                 />
                             </figure>
                             <div className="card-body">
-                                <h2 className="card-title">
+                                <h4 className="card-title">
                                     Shoes!
                                     <div className="badge badge-secondary">
                                         NEW
                                     </div>
-                                </h2>
+                                </h4>
                                 <p>
                                     If a dog chews shoes whose shoes does he
                                     choose?
@@ -170,12 +171,12 @@ export default function SectionProject() {
                                 />
                             </figure>
                             <div className="card-body">
-                                <h2 className="card-title">
+                                <h4 className="card-title">
                                     Shoes!
                                     <div className="badge badge-secondary">
                                         NEW
                                     </div>
-                                </h2>
+                                </h4>
                                 <p>
                                     If a dog chews shoes whose shoes does he
                                     choose?
