@@ -13,8 +13,10 @@ export default function SectionProject() {
                         <div className="card w-72 bg-base-100 shadow-xl">
                             <figure>
                                 <Image
-                                    src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                                    alt="Shoes"
+                                    src="https://cdn1.vectorstock.com/i/1000x1000/50/20/no-photo-or-blank-image-icon-loading-images-vector-37375020.jpg"
+                                    alt="Shoes1"
+                                    width="1080"
+                                    height="500"
                                 />
                             </figure>
                             <div className="card-body">
@@ -41,8 +43,10 @@ export default function SectionProject() {
                         <div className="card w-72 bg-base-100 shadow-xl">
                             <figure>
                                 <Image
-                                    src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                                    alt="Shoes"
+                                    src="https://cdn1.vectorstock.com/i/1000x1000/50/20/no-photo-or-blank-image-icon-loading-images-vector-37375020.jpg"
+                                    width="1080"
+                                    height="500"
+                                    alt="Shoes2"
                                 />
                             </figure>
                             <div className="card-body">
@@ -69,8 +73,10 @@ export default function SectionProject() {
                         <div className="card w-72 bg-base-100 shadow-xl">
                             <figure>
                                 <Image
-                                    src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                                    alt="Shoes"
+                                    src="https://cdn1.vectorstock.com/i/1000x1000/50/20/no-photo-or-blank-image-icon-loading-images-vector-37375020.jpg"
+                                    alt="Shoes3"
+                                    width="1080"
+                                    height="500"
                                 />
                             </figure>
                             <div className="card-body">
@@ -97,8 +103,10 @@ export default function SectionProject() {
                         <div className="card w-72 bg-base-100 shadow-xl">
                             <figure>
                                 <Image
-                                    src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                                    alt="Shoes"
+                                    src="https://cdn1.vectorstock.com/i/1000x1000/50/20/no-photo-or-blank-image-icon-loading-images-vector-37375020.jpg"
+                                    alt="Shoes4"
+                                    width="1080"
+                                    height="500"
                                 />
                             </figure>
                             <div className="card-body">
@@ -125,8 +133,10 @@ export default function SectionProject() {
                         <div className="card w-72 bg-base-100 shadow-xl">
                             <figure>
                                 <Image
-                                    src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                                    alt="Shoes"
+                                    src="https://cdn1.vectorstock.com/i/1000x1000/50/20/no-photo-or-blank-image-icon-loading-images-vector-37375020.jpg"
+                                    alt="Shoes5"
+                                    width="1080"
+                                    height="500"
                                 />
                             </figure>
                             <div className="card-body">
@@ -153,8 +163,10 @@ export default function SectionProject() {
                         <div className="card w-72 bg-base-100 shadow-xl">
                             <figure>
                                 <Image
-                                    src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                                    alt="Shoes"
+                                    src="https://cdn1.vectorstock.com/i/1000x1000/50/20/no-photo-or-blank-image-icon-loading-images-vector-37375020.jpg"
+                                    alt="Shoes6"
+                                    width="1080"
+                                    height="500"
                                 />
                             </figure>
                             <div className="card-body">

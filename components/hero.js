@@ -9,6 +9,8 @@ export default function Hero() {
                     src="/assets/images/hero.jpg"
                     className="max-w-full rounded-lg shadow-2xl"
                     alt="hero"
+                    width="400"
+                    height="400"
                 />
                 <div className="antialiased">
                     <h1 className="text-5xl font-bold">

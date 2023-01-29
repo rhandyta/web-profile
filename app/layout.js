@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Poppins } from "@next/font/google";
-import Header from "@/components/header";
-
+import Header from "../components/header";
+import Footer from "../components/footer";
 const poppins = Poppins({
     subsets: ["latin"],
     display: "optional",
@@ -10,7 +10,7 @@ const poppins = Poppins({
 
 export default function RootLayout({ children }) {
     return (
-        <html lang="en" data-theme="light" className={`${poppins.className}`}>
+        <html lang="en" className={`${poppins.className}`}>
             {/*
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
             <body className="bg-slate-50 min-h-screen ">
                 <Header />
                 {children}
+                <Footer />
             </body>
         </html>
     );

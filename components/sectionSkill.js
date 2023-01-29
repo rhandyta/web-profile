@@ -12,6 +12,9 @@ export default function SectionSkill() {
                         <div className="w-32">
                             <svg
                                 role="img"
+                                className="dark:fill-white"
+                                fill="none"
+                                stroke="currentColor"
                                 viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
@@ -22,6 +25,9 @@ export default function SectionSkill() {
                         <div className="w-32">
                             <svg
                                 role="img"
+                                className="dark:fill-white"
+                                fill="none"
+                                stroke="currentColor"
                                 viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
@@ -32,6 +38,9 @@ export default function SectionSkill() {
                         <div className="w-32">
                             <svg
                                 role="img"
+                                className="dark:fill-white"
+                                fill="none"
+                                stroke="currentColor"
                                 viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
@@ -42,6 +51,9 @@ export default function SectionSkill() {
                         <div className="w-32">
                             <svg
                                 role="img"
+                                className="dark:fill-white"
+                                fill="none"
+                                stroke="currentColor"
                                 viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
@@ -52,6 +64,9 @@ export default function SectionSkill() {
                         <div className="w-32">
                             <svg
                                 role="img"
+                                className="dark:fill-white"
+                                fill="none"
+                                stroke="currentColor"
                                 viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
@@ -62,6 +77,9 @@ export default function SectionSkill() {
                         <div className="w-32">
                             <svg
                                 role="img"
+                                className="dark:fill-white"
+                                fill="none"
+                                stroke="currentColor"
                                 viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg"
                             >
@@ -72,6 +90,9 @@ export default function SectionSkill() {
                         <div className="w-32">
                             <svg
                                 role="img"
+                                className="dark:fill-white"
+                                fill="none"
+                                stroke="currentColor"
                                 viewBox="0 0 24 24"
                                 xmlns="http://www.w3.org/2000/svg"
                             >

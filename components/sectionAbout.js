@@ -8,6 +8,9 @@ export default function SectionAbout() {
                 <Image
                     src="/assets/images/skills.png"
                     className="max-w-full rounded-lg shadow-2xl bg-transparent"
+                    width="100"
+                    height="100"
+                    alt="skill"
                 />
                 <div>
                     <h1 className="text-5xl font-bold text-center">About me</h1>

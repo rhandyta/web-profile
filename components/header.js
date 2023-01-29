@@ -1,4 +1,4 @@
-import React from "react";
+import ButtonTheme from "./buttonTheme";
 
 export default function Header() {
     return (
@@ -66,7 +66,7 @@ export default function Header() {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Get started</a>
+                <ButtonTheme />
             </div>
         </div>
     );
