@@ -8,10 +8,7 @@ export default function Head() {
             />
             <meta charset="UTF-8" />
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-            <meta
-                name="google-site-verification"
-                content="NjlBN0-SfX5SswIfFCO_yhw3bPeuoqdZkygWUPnj1xI"
-            ></meta>
+            <meta name="google-site-verification" content="c7JayKIizt5De_ARgDVBs7Mx0FybCTEKbLpal2x0y3I" />
             <meta
                 name="keywords"
                 content="rhandyta, briantama, rhandyta briantama, portfolio, web developer, React, HTML, CSS, JavaScript, freelancer, project samples, skills, php, laravel, tailwindcss"
