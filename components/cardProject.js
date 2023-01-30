@@ -14,8 +14,8 @@ export default function CardProject({
                 <Image
                     src={img.src}
                     alt={name}
-                    width="1080"
-                    height="500"
+                    width="500"
+                    height="450"
                     loading="lazy"
                 />
             </figure>
