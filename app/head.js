@@ -6,7 +6,6 @@ export default function Head() {
                 content="width=device-width, initial-scale=1"
                 name="viewport"
             />
-            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta
                 name="google-site-verification"
                 content="NjlBN0-SfX5SswIfFCO_yhw3bPeuoqdZkygWUPnj1xI"
