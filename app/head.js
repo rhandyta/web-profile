@@ -10,7 +10,7 @@ export default function Head() {
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta
                 name="google-site-verification"
-                content="google-site-verification=NjlBN0-SfX5SswIfFCO_yhw3bPeuoqdZkygWUPnj1xI"
+                content="NjlBN0-SfX5SswIfFCO_yhw3bPeuoqdZkygWUPnj1xI"
             ></meta>
             <meta
                 name="description"
