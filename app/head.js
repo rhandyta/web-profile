@@ -1,7 +1,7 @@
 export default function Head() {
     return (
         <>
-            <title>Rhandyta Briantama</title>
+            <title>Rhandyta Briantama Portfolio | WEB Developer</title>
             <meta
                 content="width=device-width, initial-scale=1"
                 name="viewport"
