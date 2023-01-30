@@ -1,9 +1,15 @@
 import React from "react";
 import Image from "next/image";
 
-export default function CardProject({ name, img, tags, newProject }) {
+export default function CardProject({
+    name,
+    img,
+    tags,
+    newProject,
+    description,
+}) {
     return (
-        <div className="card w-72 bg-base-100 shadow-xl">
+        <div className="card w-96 bg-base-100 shadow-xl">
             <figure>
                 <Image
                     src={img.src}
@@ -20,7 +26,7 @@ export default function CardProject({ name, img, tags, newProject }) {
                         <div className="ml-1 badge badge-secondary">NEW</div>
                     )}
                 </h4>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <p className="antialiased">{description}</p>
                 <div className="card-actions justify-start">
                     {tags.map((tag, index) => (
                         <div className="badge badge-outline" key={index}>

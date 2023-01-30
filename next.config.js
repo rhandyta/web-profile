@@ -6,6 +6,7 @@ const nextConfig = {
     images: {
         domains: ["daisyui.com", "cdn1.vectorstock.com"],
         formats: ["image/avif", "image/webp"],
+        minimumCacheTTL: 60,
     },
 };
 

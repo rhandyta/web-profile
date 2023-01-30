@@ -1,6 +1,6 @@
 import React from "react";
 import CardProject from "./cardProject";
-import { projects } from "../constant/constant";
+import { projects } from "@/constant/constant";
 export default function SectionProject() {
     return (
         <div className="hero min-h-screen bg-base-200 px-10">
@@ -10,17 +10,21 @@ export default function SectionProject() {
                         My Projects
                     </h3>
                     <div className="flex flex-wrap gap-5 justify-center">
-                        {projects.map((project, index) => {
-                            return (
-                                <CardProject
-                                    key={index}
-                                    name={project.name}
-                                    tags={project.tags}
-                                    newProject={project.new}
-                                    img={project.img}
-                                />
-                            );
-                        })}
+                        {projects
+                            .sort((a, b) => a.new - b.new)
+                            .map((project, index) => {
+                                return (
+                                    <CardProject
+                                        key={index}
+                                        name={project.name}
+                                        tags={project.tags}
+                                        newProject={project.new}
+                                        img={project.img}
+                                        description={project.description}
+                                    />
+                                );
+                            })
+                            .reverse()}
                     </div>
                 </div>
             </div>

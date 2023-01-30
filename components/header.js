@@ -1,4 +1,5 @@
 import ButtonTheme from "./buttonTheme";
+import { menus } from "@/constant/constant";
 
 export default function Header() {
     return (
@@ -25,21 +26,11 @@ export default function Header() {
                         tabIndex={0}
                         className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
                     >
-                        <li>
-                            <a>Home</a>
-                        </li>
-                        <li>
-                            <a>Skills</a>
-                        </li>
-                        <li>
-                            <a>Projects</a>
-                        </li>
-                        <li>
-                            <a>Contact</a>
-                        </li>
-                        <li>
-                            <a>About</a>
-                        </li>
+                        {menus.map((menu, index) => (
+                            <li key={index}>
+                                <a>{menu.title}</a>
+                            </li>
+                        ))}
                     </ul>
                 </div>
                 <h1 className="btn btn-ghost normal-case text-sm sm:text-xl">
@@ -48,21 +39,11 @@ export default function Header() {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li>
-                        <a>Home</a>
-                    </li>
-                    <li>
-                        <a>Skills</a>
-                    </li>
-                    <li>
-                        <a>Projects</a>
-                    </li>
-                    <li>
-                        <a>Contact</a>
-                    </li>
-                    <li>
-                        <a>About</a>
-                    </li>
+                    {menus.map((menu, index) => (
+                        <li key={index}>
+                            <a>{menu.title}</a>
+                        </li>
+                    ))}
                 </ul>
             </div>
             <div className="navbar-end">

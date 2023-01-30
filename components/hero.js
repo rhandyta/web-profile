@@ -17,7 +17,7 @@ export default function Hero() {
                     <h2 className="text-5xl font-bold">
                         Hi 👋, I&apos;m rhandyta😁
                     </h2>
-                    <p className="py-6">
+                    <p className="py-6 antialiased">
                         I am a developer who is passionate about learning🕮 and
                         consistency is key🗝️
                     </p>

@@ -8,8 +8,8 @@ export default function Home() {
         <>
             <Hero />
             <SectionSkill />
-            <SectionAbout />
             <SectionProject />
+            <SectionAbout />
         </>
     );
 }

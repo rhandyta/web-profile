@@ -6,8 +6,8 @@ export default function SectionAbout() {
         <div className="hero min-h-screen bg-base-200 px-10">
             <div className="hero-content flex-col lg:flex-row">
                 <div>
-                    <h3 className="text-5xl font-bold text-center">About me</h3>
-                    <p className="py-6 text-justify">
+                    <h3 className="text-5xl font-bold text-center">About Me</h3>
+                    <p className="py-6 text-justify antialiased">
                         <span className="inline-block">
                             <Image
                                 src="/assets/images/skills.png"
