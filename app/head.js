@@ -18,7 +18,7 @@ export default function Head() {
             ></meta>
             <meta
                 name="description"
-                content="Welcome to my online portfolio. I am a highly skilled web developer specializing in React, HTML, CSS, and JavaScript, PHP, Laravel, Tailwindcss, CodeIgniter. Explore my project samples and see my expertise for yourself."
+                content="Welcome to my online portfolio. I am a Highly skilled web dev, React, HTML, CSS, JS, PHP, Laravel. Portfolio avail, see best projects. Prove expertise."
             />
             <meta property="og:title" content="Rhandyta Briantama Portfolio" />
             <meta
