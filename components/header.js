@@ -1,7 +1,16 @@
+"use client";
 import ButtonTheme from "./buttonTheme";
 import { menus } from "@/constant/constant";
+import Link from "next/link";
 
 export default function Header() {
+    const handleClickScroll = (elementId) => {
+        const element = document.getElementById(elementId);
+        if (element) {
+            // 👇 Will scroll smoothly to the top of the next section
+            element.scrollIntoView({ behavior: "smooth" });
+        }
+    };
     return (
         <div className="navbar bg-base-100">
             <div className="navbar-start">
@@ -28,7 +37,14 @@ export default function Header() {
                     >
                         {menus.map((menu, index) => (
                             <li key={index}>
-                                <a>{menu.title}</a>
+                                <Link
+                                    href={`#${menu.elementId}`}
+                                    onClick={() =>
+                                        handleClickScroll(menu.elementId)
+                                    }
+                                >
+                                    {menu.title}
+                                </Link>
                             </li>
                         ))}
                     </ul>
@@ -41,7 +57,14 @@ export default function Header() {
                 <ul className="menu menu-horizontal px-1">
                     {menus.map((menu, index) => (
                         <li key={index}>
-                            <a>{menu.title}</a>
+                            <Link
+                                href={`#${menu.elementId}`}
+                                onClick={() =>
+                                    handleClickScroll(menu.elementId)
+                                }
+                            >
+                                {menu.title}
+                            </Link>
                         </li>
                     ))}
                 </ul>

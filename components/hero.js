@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Hero() {
     return (
-        <div className="hero min-h-screen bg-base-200 px-10">
+        <div className="hero min-h-screen bg-base-200 px-10" id="home">
             <div className="hero-content flex-col lg:flex-row-reverse ">
                 <Image
                     src="/assets/images/hero.jpg"

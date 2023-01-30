@@ -3,7 +3,7 @@ import React from "react";
 
 export default function SectionAbout() {
     return (
-        <div className="hero min-h-screen bg-base-200 px-10">
+        <div className="hero min-h-screen bg-base-200 px-10" id="aboutme">
             <div className="hero-content flex-col lg:flex-row">
                 <div>
                     <h3 className="text-5xl font-bold text-center">About Me</h3>

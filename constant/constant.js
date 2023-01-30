@@ -5,18 +5,23 @@ import covid from "@/public/assets/images/project/covid/covid1.jpg";
 export const menus = [
     {
         title: "Home",
+        elementId: "home",
     },
     {
         title: "Skills",
+        elementId: "skill",
     },
     {
         title: "Projects",
+        elementId: "project",
     },
     {
         title: "Contant Us",
+        elementId: "contactus",
     },
     {
         title: "About Me",
+        elementId: "aboutme",
     },
 ];
 

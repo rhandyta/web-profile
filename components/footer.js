@@ -23,7 +23,7 @@ export default function Footer() {
                     Providing reliable tech since 1992
                 </p>
             </div>
-            <div>
+            <div id="contactus">
                 <span className="footer-title">Social</span>
                 <div className="grid grid-flow-col gap-4">
                     {socials.map((social, index) => (
