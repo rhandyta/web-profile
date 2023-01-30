@@ -6,6 +6,8 @@ export default function Head() {
                 content="width=device-width, initial-scale=1"
                 name="viewport"
             />
+            <meta charset="UTF-8" />
+            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta
                 name="google-site-verification"
                 content="google-site-verification=NjlBN0-SfX5SswIfFCO_yhw3bPeuoqdZkygWUPnj1xI"
@@ -14,7 +16,6 @@ export default function Head() {
                 name="description"
                 content="rhandyta briantama portfolio skill"
             />
-            <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"></urlset>
             <meta name="robots" content="all" />
             <link rel="icon" href="/favicon.ico" />
         </>
