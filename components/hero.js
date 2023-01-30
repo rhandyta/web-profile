@@ -15,7 +15,7 @@ export default function Hero() {
                 />
                 <div className="antialiased">
                     <h2 className="text-5xl font-bold">
-                        Hi 👋, I&apos;m rhandyta😁
+                        Hi 👋, I&apos;m rhandyta briantama😁
                     </h2>
                     <p className="py-6 antialiased">
                         I am a developer who is passionate about learning🕮 and
