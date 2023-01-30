@@ -42,7 +42,7 @@ export default function Header() {
                         </li>
                     </ul>
                 </div>
-                <h1 className="btn btn-ghost normal-case text-xl">
+                <h1 className="btn btn-ghost normal-case text-sm sm:text-xl">
                     Rhandyta Briantama
                 </h1>
             </div>

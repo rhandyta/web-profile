@@ -5,17 +5,19 @@ export default function SectionAbout() {
     return (
         <div className="hero min-h-screen bg-base-200 px-10">
             <div className="hero-content flex-col lg:flex-row">
-                <Image
-                    src="/assets/images/skills.png"
-                    className="max-w-full rounded-lg shadow-2xl bg-transparent"
-                    width="100"
-                    height="100"
-                    alt="skill"
-                    loading="lazy"
-                />
                 <div>
                     <h3 className="text-5xl font-bold text-center">About me</h3>
                     <p className="py-6 text-justify">
+                        <span className="inline-block">
+                            <Image
+                                src="/assets/images/skills.png"
+                                className="max-w-full rounded-lg shadow-2xl bg-transparent"
+                                width="50"
+                                height="50"
+                                alt="skill"
+                                loading="lazy"
+                            />
+                        </span>
                         I am an energetic and ambitious person. I always strive
                         to learn something new and pursue my dreams. I am highly
                         interested in technology and always look for ways to

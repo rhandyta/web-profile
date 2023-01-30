@@ -21,7 +21,7 @@ export default function Hero() {
                         I am a developer who is passionate about learning🕮 and
                         consistency is key🗝️
                     </p>
-                    <button className="btn btn-primary">Explorer me</button>
+                    <button className="btn btn-neutral">Explorer me</button>
                 </div>
             </div>
         </div>
