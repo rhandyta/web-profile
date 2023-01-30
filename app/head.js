@@ -2,7 +2,6 @@ export default function Head() {
     return (
         <>
             <title>Rhandyta Briantama</title>
-            <meta charset="UTF-8" />
             <meta
                 content="width=device-width, initial-scale=1"
                 name="viewport"
