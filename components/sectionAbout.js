@@ -3,11 +3,11 @@ import React from "react";
 
 export default function SectionAbout() {
     return (
-        <section className="hero min-h-screen bg-base-200 px-10" id="aboutme">
+        <sectio className="hero min-h-screen bg-base-200 px-10" id="aboutme">
             <div className="hero-content flex-col lg:flex-row">
                 <div>
                     <h3 className="text-5xl font-bold text-center">About Me</h3>
-                    <p className="py-6 text-justify antialiased">
+                    <p className="text-justify antialiased">
                         <span className="inline-block">
                             <Image
                                 src="/assets/images/skills.png"
@@ -29,6 +29,6 @@ export default function SectionAbout() {
                     </p>
                 </div>
             </div>
-        </section>
+        </sectio>
     );
 }

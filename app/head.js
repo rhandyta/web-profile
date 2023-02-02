@@ -1,3 +1,4 @@
+import heroImage from "../public/assets/images/hero.jpg";
 export default function Head() {
     return (
         <>
@@ -7,7 +8,7 @@ export default function Head() {
                 name="viewport"
             />
             <meta charSet="UTF-8" />
-            <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+            <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <meta
                 name="keywords"
                 content="rhandyta, briantama, rhandyta briantama, portfolio, web developer, React, HTML, CSS, JavaScript, freelancer, project samples, skills, php, laravel, tailwindcss"
@@ -23,7 +24,7 @@ export default function Head() {
             />
             <meta
                 property="og:image"
-                content="https://rhandyta.my.id/_next/image?url=%2Fassets%2Fimages%2Fhero.jpg&w=640&q=75"
+                content={`https://rhandyta.my.id/${heroImage}`}
             />
             <meta property="og:url" content="https://rhandyta.my.id" />
             <meta property="og:type" content="website" />

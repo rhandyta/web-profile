@@ -18,8 +18,8 @@ export default function SectionContact() {
                                 key={index}
                                 link={social.link}
                                 socialSvg={social.svg}
-                                w="24"
-                                h="24"
+                                widthSvg="24"
+                                heightSvg="24"
                             />
                         ))}
                     </div>
