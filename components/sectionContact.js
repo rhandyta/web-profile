@@ -1,5 +1,5 @@
 import React from "react";
-import { socials } from "@/constant/constant";
+import { socialsContact } from "@/constant/constant";
 import Social from "./social";
 export default function SectionContact() {
     return (
@@ -13,7 +13,7 @@ export default function SectionContact() {
                         a positive one.
                     </p>
                     <div className="flex justify-center flex-wrap gap-4">
-                        {socials.map((social, index) => (
+                        {socialsContact.map((social, index) => (
                             <Social
                                 key={index}
                                 link={social.link}
