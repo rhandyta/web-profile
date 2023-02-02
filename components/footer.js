@@ -8,9 +8,9 @@ export default function Footer() {
             className="footer flex justify-center items-center gap-10 p-10 bg-neutral text-neutral-content flex-col-reverse"
             id="footer"
         >
-            <div>
+            <div className="text-center">
                 <p>
-                    copyright &at; {new Date().getFullYear()}. Made Rhandyta
+                    copyright @ {new Date().getFullYear()}. Made Rhandyta
                     Briantama
                     <br />
                 </p>

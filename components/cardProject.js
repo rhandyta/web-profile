@@ -9,7 +9,7 @@ export default function CardProject({
     description,
 }) {
     return (
-        <div className="card w-96 bg-base-100 shadow-xl">
+        <div className="card w-full sm:w-96 bg-base-100 shadow-xl">
             <figure>
                 <Image
                     src={img.src}
