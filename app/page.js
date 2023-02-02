@@ -1,3 +1,4 @@
+import SectionContact from "@/components/sectionContact";
 import Hero from "../components/hero";
 import SectionAbout from "../components/sectionAbout";
 import SectionProject from "../components/sectionProject";
@@ -9,6 +10,7 @@ export default function Home() {
             <Hero />
             <SectionSkill />
             <SectionProject />
+            <SectionContact />
             <SectionAbout />
         </>
     );

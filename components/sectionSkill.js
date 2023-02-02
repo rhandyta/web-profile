@@ -3,7 +3,7 @@ import { svgSkills } from "@/constant/constant";
 
 export default function SectionSkill() {
     return (
-        <div className="hero min-h-screen bg-base-200 px-10" id="skill">
+        <section className="hero min-h-screen bg-base-200 px-10" id="skill">
             <div className="hero-content">
                 <div>
                     <h3 className="text-5xl font-bold text-center mb-10">
@@ -18,6 +18,6 @@ export default function SectionSkill() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
