@@ -2,5 +2,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://rhandyta.vercel.app/sitemap.xml
-Sitemap: https://www.rhandyta.vercel.app/sitemap.xml
+Sitemap: https://rhandyta.my.id/sitemap.xml
+Sitemap: https://www.rhandyta.my.id/sitemap.xml
