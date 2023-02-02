@@ -9,8 +9,8 @@ export default function SectionContact() {
                     <h3 className="text-5xl font-bold">Contact Us</h3>
                     <p className="py-6">
                         Connect with us for support, feedback, or just to say
-                        hello. We're here to help and make your experience a
-                        positive one.
+                        hello. We&apos;re here to help and make your experience
+                        a positive one.
                     </p>
                     <div className="flex justify-center flex-wrap gap-4">
                         {socials.map((social, index) => (

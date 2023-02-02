@@ -10,7 +10,7 @@ export default function Footer() {
         >
             <div>
                 <p>
-                    copyright @ {new Date().getFullYear()}. Made Rhandyta
+                    copyright &at; {new Date().getFullYear()}. Made Rhandyta
                     Briantama
                     <br />
                 </p>
