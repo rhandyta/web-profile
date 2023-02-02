@@ -9,10 +9,6 @@ export default function Head() {
             <meta charSet="UTF-8" />
             <meta http-equiv="X-UA-Compatible" content="IE=edge" />
             <meta
-                name="google-site-verification"
-                content="c7JayKIizt5De_ARgDVBs7Mx0FybCTEKbLpal2x0y3I"
-            />
-            <meta
                 name="keywords"
                 content="rhandyta, briantama, rhandyta briantama, portfolio, web developer, React, HTML, CSS, JavaScript, freelancer, project samples, skills, php, laravel, tailwindcss"
             ></meta>
@@ -27,9 +23,9 @@ export default function Head() {
             />
             <meta
                 property="og:image"
-                content="https://rhandyta.vercel.app/_next/image?url=%2Fassets%2Fimages%2Fhero.jpg&w=640&q=75"
+                content="https://rhandyta.my.id/_next/image?url=%2Fassets%2Fimages%2Fhero.jpg&w=640&q=75"
             />
-            <meta property="og:url" content="https://rhandyta.vercel.app" />
+            <meta property="og:url" content="https://rhandyta.my.id" />
             <meta property="og:type" content="website" />
             <meta name="robots" content="all" />
             <link rel="icon" href="/favicon.ico" />
