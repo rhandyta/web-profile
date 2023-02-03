@@ -23,9 +23,9 @@ export default function Head() {
             />
             <meta
                 property="og:image"
-                content={`https://rhandyta.vercel.app/assets/images/hero.jpg`}
+                content={`https://rhandyta.my.id/assets/images/hero.jpg`}
             />
-            <meta property="og:url" content="https://rhandyta.vercel.app" />
+            <meta property="og:url" content="https://rhandyta.my.id" />
             <meta property="og:type" content="website" />
             <meta name="robots" content="all" />
             <meta name="twitter:card" content="rhandyta briantama, portfolio" />
@@ -39,7 +39,7 @@ export default function Head() {
             />
             <meta
                 name="twitter:image"
-                content={`https://rhandyta.vercel.app/assets/images/hero.jpg`}
+                content={`https://rhandyta.my.id/assets/images/hero.jpg`}
             />
             <link rel="icon" href="/favicon.ico" />
         </>
