@@ -24,11 +24,24 @@ export default function Head() {
             />
             <meta
                 property="og:image"
-                content={`https://rhandyta.my.id/${heroImage}`}
+                content={`https://rhandyta.vercel.app/${heroImage}`}
             />
-            <meta property="og:url" content="https://rhandyta.my.id" />
+            <meta property="og:url" content="https://rhandyta.vercel.app" />
             <meta property="og:type" content="website" />
             <meta name="robots" content="all" />
+            <meta name="twitter:card" content="rhandyta briantama, portfolio" />
+            <meta
+                name="twitter:title"
+                content="Rhandyta Briantama Portfolio | WEB Developer"
+            />
+            <meta
+                name="twitter:description"
+                content="Welcome to my online portfolio. I am a Highly skilled web dev, React, HTML, CSS, JS, PHP, Laravel. Portfolio avail, see best projects. Prove expertise."
+            />
+            <meta
+                name="twitter:image"
+                content={`https://rhandyta.vercel.app/${heroImage}`}
+            />
             <link rel="icon" href="/favicon.ico" />
         </>
     );

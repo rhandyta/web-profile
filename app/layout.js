@@ -17,9 +17,11 @@ export default function RootLayout({ children }) {
       */}
             <head />
             <body className="bg-slate-50 min-h-screen ">
-                <Header />
-                {children}
-                <Footer />
+                <main>
+                    <Header />
+                    {children}
+                    <Footer />
+                </main>
             </body>
         </html>
     );

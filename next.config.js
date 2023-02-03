@@ -1,3 +1,10 @@
+module.exports = {
+    exportPathMap: function () {
+        return {
+            "/": { page: "/" },
+        };
+    },
+};
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     experimental: {
