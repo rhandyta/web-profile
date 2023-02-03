@@ -27,12 +27,12 @@ export default function Hero() {
                         expertise in the field of website creation. rhandyta has
                         a foundation in programming languages such as HTML, CSS,
                         and JavaScript and is constantly trying to expand her
-                        knowledge and skills. Rhandyta Briantama's portfolio
-                        includes several projects worked on during the course of
-                        study, including simple websites, certificates and
-                        simple web applications. Thank you for visiting my web
-                        profile to see the potential and results of work as a
-                        web developer and assist in the development of
+                        knowledge and skills. Rhandyta Briantama&apos;s
+                        portfolio includes several projects worked on during the
+                        course of study, including simple websites, certificates
+                        and simple web applications. Thank you for visiting my
+                        web profile to see the potential and results of work as
+                        a web developer and assist in the development of
                         improvements.
                     </p>
                     <button className="btn btn-neutral">Explorer me</button>
