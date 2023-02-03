@@ -14,7 +14,7 @@ export default function Head() {
             ></meta>
             <meta
                 name="description"
-                content="Welcome to my online portfolio. I am a Highly skilled web dev, React, HTML, CSS, JS, PHP, Laravel. Portfolio avail, see best projects. Prove expertise."
+                content="Welcome to Rhandyta Briantama online portfolio. I am a Highly skilled web dev, React, HTML, CSS, JS, PHP, Laravel. Portfolio avail, see best projects."
             />
             <meta property="og:title" content="Rhandyta Briantama Portfolio" />
             <meta
@@ -35,7 +35,7 @@ export default function Head() {
             />
             <meta
                 name="twitter:description"
-                content="Welcome to my online portfolio. I am a Highly skilled web dev, React, HTML, CSS, JS, PHP, Laravel. Portfolio avail, see best projects. Prove expertise."
+                content="Welcome to Rhandyta Briantama online portfolio. I am a Highly skilled web dev, React, HTML, CSS, JS, PHP, Laravel. Portfolio avail, see best projects."
             />
             <meta
                 name="twitter:image"
