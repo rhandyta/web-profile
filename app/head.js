@@ -1,4 +1,3 @@
-import heroImage from "../public/assets/images/hero.jpg";
 export default function Head() {
     return (
         <>
@@ -24,7 +23,7 @@ export default function Head() {
             />
             <meta
                 property="og:image"
-                content={`https://rhandyta.vercel.app/${heroImage}`}
+                content={`https://rhandyta.vercel.app/assets/images/hero.jpg`}
             />
             <meta property="og:url" content="https://rhandyta.vercel.app" />
             <meta property="og:type" content="website" />
@@ -40,7 +39,7 @@ export default function Head() {
             />
             <meta
                 name="twitter:image"
-                content={`https://rhandyta.vercel.app/${heroImage}`}
+                content={`https://rhandyta.vercel.app/assets/images/hero.jpg`}
             />
             <link rel="icon" href="/favicon.ico" />
         </>

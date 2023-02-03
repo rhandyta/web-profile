@@ -39,6 +39,7 @@ export default function Header() {
                             {menus.map((menu, index) => (
                                 <li key={index}>
                                     <Link
+                                        title={menu.tag}
                                         href={`#${menu.elementId}`}
                                         onClick={() =>
                                             handleClickScroll(menu.elementId)

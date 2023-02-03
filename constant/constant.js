@@ -6,22 +6,27 @@ export const menus = [
     {
         title: "Home",
         elementId: "home",
+        tag: "visit the contact us section",
     },
     {
         title: "Skills",
         elementId: "skill",
+        tag: "visit the contact us section",
     },
     {
         title: "Projects",
         elementId: "project",
+        tag: "visit the contact us section",
     },
     {
         title: "Contant Us",
         elementId: "contactus",
+        tag: "visit the contact us section",
     },
     {
         title: "About Me",
         elementId: "aboutme",
+        tag: "visit the contact us section",
     },
 ];
 
