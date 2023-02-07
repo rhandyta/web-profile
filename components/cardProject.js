@@ -30,7 +30,10 @@ export default function CardProject({
                         <div className="ml-1 badge badge-secondary">NEW</div>
                     )}
                 </h4>
-                <p className="antialiased" itemProp="description">
+                <p
+                    className="antialiased whitespace-normal text-justify"
+                    itemProp="description"
+                >
                     {description}
                 </p>
                 <div className="card-actions justify-start">

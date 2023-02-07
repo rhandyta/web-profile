@@ -13,12 +13,12 @@ export default function Hero() {
                     height="400"
                     loading="lazy"
                 />
-                <div className="antialiased">
-                    <h2 className="text-5xl font-bold">
+                <div className="antialiased md:px-10">
+                    <h2 className="text-4xl font-bold">
                         Hi 👋, I&apos;m rhandyta briantama😁
                     </h2>
                     <p
-                        className="py-6 antialiased"
+                        className="py-6 antialiased whitespace-normal text-justify"
                         itemProp="description rhandyta briantama"
                     >
                         I am a developer who is passionate about learning🕮 and

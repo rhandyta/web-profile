@@ -1,6 +1,7 @@
 import spk from "@/public/assets/images/project/spk/spk.jpg";
 import note from "@/public/assets/images/project/note/note.jpg";
 import covid from "@/public/assets/images/project/covid/covid1.jpg";
+import penyewaan from "@/public/assets/images/project/penyewaan/penyewaan.jpg";
 
 export const menus = [
     {
@@ -54,6 +55,14 @@ export const projects = [
             "This application aims to inform the latest updates in the case of Covid-19",
         tags: ["html", "css", "javascript"],
         new: false,
+    },
+    {
+        name: "Penyewaan",
+        img: penyewaan,
+        description:
+            "Aplikasi penyewaan adalah aplikasi yang memungkinkan pengguna untuk menyewa tempat dari pemiliknya. Ini mempermudah proses penyewaan dengan memberikan platform untuk berkomunikasi, membuat pemesanan secara online. Aplikasi penyewaan memberikan fleksibilitas dan kemudahan bagi penyewa dan pemilik untuk bekerja sama dalam menyelesaikan transaksi penyewaan. Contributor: Rhandyta Briantama, Maulana Syarif",
+        tags: ["html", "bootstrap", "jquery"],
+        new: true,
     },
 ];
 
